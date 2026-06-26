@@ -10,5 +10,5 @@ echo "Sum2 is :$sum2"
 
 Movies=("RRR","VARANASI","Puspha")
 echo "Movies are :${Movies[@]}"
-echo "First movie: ${Movies[0]}"
-echo "Seconf movie:${Movies[1]"}
+echo "First movie:${Movies[0]}"
+echo "Seconf movie: ${Movies[1]}"
