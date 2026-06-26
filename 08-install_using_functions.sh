@@ -27,4 +27,5 @@ VALIDATE(){
     fi
 
 }
+CHECK_INSTALL nginx
 
