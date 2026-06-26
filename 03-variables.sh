@@ -1,4 +1,6 @@
 #!/bin/bash
+
+start_time=$(date +%s)
 a=$1
 b=$2
 
@@ -13,3 +15,9 @@ echo " Please enter you passowrd:"
 read -s PASSWORD
 
 echo "password is $PASSWORD"
+
+
+sleep 10
+end_time=$(date +%s)
+total_time_taken=$($end_time-$start_time)
+echo "total time taken for script"
