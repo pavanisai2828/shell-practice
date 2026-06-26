@@ -13,7 +13,7 @@ if [ $? -eq 0 ]; then
     echo "mysql is already installed... skipping"
 else
     echo "installing mysql"
-    dnf installggggg mysql -y >2
+    dnf install mysql -y
     if [ $? -eq 0 ]; then
         echo "success"
     else
