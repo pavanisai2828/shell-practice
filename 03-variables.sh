@@ -20,4 +20,4 @@ echo "password is $PASSWORD"
 sleep 10
 end_time=$(date +%s)
 total_time_taken=$(($end_time-$start_time))
-echo "total time taken for script"
+echo "total time taken for script:$total_time_taken"
