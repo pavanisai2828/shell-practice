@@ -20,7 +20,7 @@ fi
 CHECK_INSTALL(){
     dnf list installed $1 &>> $LOG_FILE
     if [ $? -eq 0 ];then
-        echo -e "$Timestamp $R already $N installed skipping"
+        echo -e "$Timestamp $Y already $N installed skipping"
     else
         echo "installing"
         dnf install $1
